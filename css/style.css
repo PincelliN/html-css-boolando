@@ -71,6 +71,7 @@ main {
   cursor: pointer;
 }
 .dress .info {
+  display: flex;
   justify-content: flex-start;
   position: absolute;
   left: 0;
