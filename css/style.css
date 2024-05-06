@@ -23,7 +23,7 @@ footer {
 }
 /* header css */
 header {
-  /* position: fixed; */
+  position: fixed; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,23 +37,54 @@ header img {
 }
 /* beckup */
 
-main section{
-    display: flex;
-    justify-content: space-between;
-   
+main section {
+  display: flex;
+  justify-content: space-between;
 }
-.dress{
-    margin: 60px 0;
-    border: 1px solid black;
-    width: 32%; 
+.dress {
+  position: relative;
+  margin: 60px 0;
+  width: 32%;
+  cursor: pointer;
 }
-.dress img{
-    width: 100%;
+.dress img {
+  width: 100%;
 }
-
-
-
-
+.dress em {
+  color: red;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  font-size: xx-large;
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.dress .info {
+    justify-content: flex-start;
+    position: absolute;
+    left: 0;
+    bottom:100px;
+    color: white;
+    text-align: center; 
+    max-width: max-content;
+}
+.info .sale{
+    background-color: red;
+    margin-right: 5px;
+    padding: 3px 5px;
+    max-width: max-content;
+}
+.info .eco{
+    background-color: green;
+    padding: 3px 5px;
+    max-width: max-content;
+}
 
 
 
@@ -73,11 +104,10 @@ footer {
   background-color: black;
   color: white;
   height: 60px;
-  
 }
-footer section{
-    padding: 10px auto;
+footer section {
+  padding: 10px auto;
 }
-footer .page{
-    margin-top: 5px;
+footer .page {
+  margin-top: 5px;
 }
