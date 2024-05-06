@@ -35,21 +35,25 @@ header {
 header img {
   width: 100px;
 }
-/* beckup */
+/* CSS main */
 
-main section {
+main {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .dress {
   position: relative;
   margin: 60px 0;
-  width: 32%;
+  width: 30%;
   cursor: pointer;
 }
 .dress img {
   width: 100%;
 }
+ .dress .switch{
+  display: none;
+} 
 .dress em {
   color: red;
   font-weight: bold;
@@ -103,23 +107,11 @@ footer .page {
 
 /* hover css */
 .heart:hover{
-    color: red;
+  color: red;
 }
-.dress .lewis-1:hover{
-    content: url(../img/1b.webp);
+.dress:hover img{
+  display:none;
 }
-.dress .guess:hover{
-    content: url(../img/2b.webp);
-}
-.dress .come:hover{
-    content: url(../img/3b.webp);
-}
-.dress .lewis-2:hover{
-    content: url(../img/4b.webp);
-}
-.dress .maya:hover{
-    content: url(../img/5b.webp);
-}
-.dress .esprit:hover{
-    content: url(../img/6b.webp);
+.dress:hover .switch{
+  display: block;
 }
