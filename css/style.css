@@ -23,7 +23,7 @@ footer {
 }
 /* header css */
 header {
-  position: fixed;
+  /* position: fixed; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,11 +35,36 @@ header {
 header img {
   width: 100px;
 }
-/* css main */
-main {
-  height: 100px;
-  width: 100%;
+/* beckup */
+
+main section{
+    display: flex;
+    justify-content: space-between;
+   
 }
+.dress{
+    margin: 60px 0;
+    border: 1px solid black;
+    width: 32%; 
+}
+.dress img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer css */
 footer {
   display: flex;
