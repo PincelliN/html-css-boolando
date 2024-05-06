@@ -105,3 +105,21 @@ footer .page {
 .heart:hover{
     color: red;
 }
+.dress .lewis-1:hover{
+    content: url(../img/1b.webp);
+}
+.dress .guess:hover{
+    content: url(../img/2b.webp);
+}
+.dress .come:hover{
+    content: url(../img/3b.webp);
+}
+.dress .lewis-2:hover{
+    content: url(../img/4b.webp);
+}
+.dress .maya:hover{
+    content: url(../img/5b.webp);
+}
+.dress .esprit:hover{
+    content: url(../img/6b.webp);
+}
