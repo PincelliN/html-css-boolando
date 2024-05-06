@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*  css general */
+header,main,footer{
+    padding: 0 5%;
+}
+/*  list link general */
+.page a{
+    text-decoration: none;
+    color: white;
+}
+.page{
+    list-style: nonne;
+}
+.page li{
+    display: inline-block;
+    margin: 0 3px;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    width: 100%;
+    height: 50px;
+    z-index:5;
+}
+header img{
+    width: 100px;
+}
